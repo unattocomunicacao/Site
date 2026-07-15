@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/diagnostico", "destination": "https://diagnostico.unatto.com.br" },
+    { "source": "/diagnostico/:path*", "destination": "https://diagnostico.unatto.com.br/:path*" }
+  ]
+}
